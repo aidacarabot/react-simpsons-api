@@ -4,19 +4,18 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="header">
+    <header>
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Inicio</Link>
           </li>
           <li>
-            <Link to="/characters">Characters</Link>
+            <Link to="/characters">Personajes</Link>
           </li>
         </ul>
       </nav>
     </header>
   )
 }
-
 export default Header
