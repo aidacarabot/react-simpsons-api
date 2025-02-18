@@ -30,7 +30,7 @@ const Characters = () => {
       return (
         <div className="characters">
           <div className="logo-search">
-            <img src="../../../public/assets/logo.svg" className="logo"></img>
+            <img src="/assets/logo.svg" className="logo"></img>
             <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
           </div>
           <CharacterList characters={currentCharacters} />
