@@ -22,10 +22,6 @@ const CharacterDetail = () => {
         }
         setLoading(false);
       })
-      .catch((error) => {
-        setError("Error al obtener los personajes.");
-        setLoading(false);
-      });
   }, [id]);
 
   return (

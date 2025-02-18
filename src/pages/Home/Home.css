@@ -9,6 +9,7 @@
   font-family: var(--font-simpsons);
   gap: 30px;
   text-align: center;
+  padding: 40px;
 }
 
 .home img {
@@ -23,4 +24,20 @@
   font-family: var(--font-normal);
   max-width: 1000px;
   font-size: 20px;
+}
+
+@media (width < 500px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media (width < 376px) {
+  .home {
+    padding-top: 100px;
+  }
+  .home p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
 }

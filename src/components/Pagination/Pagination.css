@@ -29,3 +29,14 @@
   color: white;
   cursor: not-allowed;
 }
+
+@media (width < 500px) {
+  .pagination button {
+    font-size: 12px;
+  }
+
+  .pagination span {
+    font-size: 14px;
+    margin: 10px;
+  }
+}

@@ -21,3 +21,15 @@
     padding-right: 50px;
     max-height: 150px;
 }
+
+@media (width < 500px) {
+    .logo-search {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .characters{
+        gap: 120px;
+    }
+  }
+  

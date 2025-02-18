@@ -8,6 +8,7 @@ header {
   z-index: 1000;
   font-family: var(--font-simpsons);
   font-size: 20px;
+  border-bottom: 2px solid black;
 }
 
 header ul {
@@ -24,5 +25,11 @@ header ul li a {
 }
 
 header ul li a:hover {
-  background-color: whitesmoke;
+  background-color: rgb(229, 229, 229);
+}
+
+@media (width < 500px) {
+  header {
+    font-size: 16px;
+  }
 }

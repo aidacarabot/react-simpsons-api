@@ -1,6 +1,6 @@
 .character-detail {
   text-align: center;
-  padding: 20px;
+  padding: 40px;
   background-color: rgb(252, 212, 31);
   min-height: 100vh;
   display: flex;
@@ -36,9 +36,9 @@
 }
 
 .back-button {
-  position: absolute;
-  top: 120px;
-  right: 150px;
+  display: flex;
+  align-self: flex-end;
+  justify-self: center;
   padding: 10px 15px;
   font-size: 16px;
   cursor: pointer;
@@ -67,4 +67,24 @@ button:active {
   align-items: center;
   gap: 20px;
   min-height: 350px;
+}
+
+@media (width < 500px) {
+  .character-container {
+    flex-direction: column;
+  }
+
+  .character-container img {
+    height: 200px;
+  }
+
+  .character-info {
+    margin-left: 0;
+  }
+}
+
+@media (width < 376px) {
+  .character-detail {
+    margin-top: 100px;
+  }
 }

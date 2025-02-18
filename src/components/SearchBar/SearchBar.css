@@ -8,3 +8,8 @@
   font-family: var(--font-simpsons);
 }
 
+@media (width < 500px) {
+  .search-bar {
+    margin-top: 10px;
+  }
+}
