@@ -1,5 +1,8 @@
 # 📌 Simpsons Characters - React App
 
+## 💻 Web
+https://react-simpsons-api.vercel.app/
+
 ## 🟡 Descripción
 Este es un proyecto desarrollado en **React** que permite explorar los personajes de Los Simpsons. La aplicación obtiene datos desde una API pública y muestra información detallada de cada personaje.
 
