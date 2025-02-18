@@ -3,23 +3,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
     text-align: center;
 }
 
 .characters img {
-    height: 150px;
+    height: var(--height-xs);
 }
 
 .logo-search {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 50px;
-    padding-right: 50px;
-    max-height: 150px;
+    width: var(--width-full);
+    padding: var(--padding-l);
+    max-height: var(--height-xs);
 }
 
 @media (width < 500px) {
@@ -29,7 +28,7 @@
     }
 
     .characters{
-        gap: 120px;
+        gap: var(--gap-xl);
     }
   }
   

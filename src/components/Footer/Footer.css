@@ -1,10 +1,10 @@
 .footer {
-  width: 100%;
+  width: var(--width-full);
   text-align: center;
-  padding: 5px;
-  background-color: #222;
-  color: white;
-  font-size: 12px;
+  padding: var(--padding-xs);
+  background-color: var(--footer-background-color);
+  color: var(--footer-text-color);
+  font-size: var(--fs-xxs);
   position: fixed;
   bottom: 0;
   left: 0;
@@ -12,12 +12,12 @@
 }
 
 .footer-link {
-  color: #ffd700; /* Dorado para resaltar el enlace */
+  color: var(--footer-color);
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .footer-link:hover {
-  color: #ffcc00; /* Cambio de color al pasar el mouse */
+  color: var(--footer-hover-color);
 }

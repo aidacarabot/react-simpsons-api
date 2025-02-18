@@ -1,8 +1,8 @@
 .character-detail {
   text-align: center;
-  padding: 40px;
-  background-color: rgb(252, 212, 31);
-  min-height: 100vh;
+  padding: var(--padding-m);
+  background-color: var(--primary-color);
+  min-height: var(--height-screen);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,25 +14,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1000px;
+  max-width: var(--width-l);
 }
 
 .character-container img {
-  height: 350px;
+  height: var(--height-m);
 }
 
 .character-detail h1 {
-  font-size: 28px;
-  color: #333;
+  font-size: var(--fs-xxl);
 }
 
 .character-detail p {
-  font-size: 20px;
-  color: #555;
-}
-
-.character-detail p strong {
-  color: #222;
+  font-size: var(--fs-l);
 }
 
 .back-button {
@@ -40,33 +34,33 @@
   align-self: flex-end;
   justify-self: center;
   padding: 10px 15px;
-  font-size: 16px;
+  font-size: var(--fs-s);
   cursor: pointer;
   border: 2px solid black;
-  border-radius: 10px;
-  background-color: rgb(146, 212, 252);
-  color: black;
+  border-radius: var(--br-s);
+  background-color: var(--back-button-color);
+  color: var(--secondary-color);
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: rgb(94, 189, 248);
+  background-color: var(--back-button-hover-color);
 }
 
 button:active {
-  background-color: #ff9900;
+  background-color: var(--back-button-active-color);
 }
 
 .character-info {
-  margin-left: 50px;
-  margin-bottom: 50px;
+  margin-left: var(--margin-xl);
+  margin-bottom: var(--margin-xl);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  min-height: 350px;
+  gap: var(--gap-s);
+  min-height: var(--height-m);
 }
 
 @media (width < 500px) {
@@ -75,7 +69,7 @@ button:active {
   }
 
   .character-container img {
-    height: 200px;
+    height: var(--height-s);
   }
 
   .character-info {
@@ -85,6 +79,6 @@ button:active {
 
 @media (width < 376px) {
   .character-detail {
-    margin-top: 100px;
+    margin-top: var(--margin-xxl);
   }
 }

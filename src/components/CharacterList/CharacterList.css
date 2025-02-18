@@ -3,9 +3,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: var(--gap-s);
   justify-content: center;
-  margin: 20px;
+  margin: var(--margin-m);
 }
 
 .character-list p {

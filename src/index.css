@@ -1,8 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins&family=Rock+Salt&display=swap');
 
 :root {
+  /* FONT-FAMILY */
   --font-normal: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   --font-simpsons: "Rock Salt", serif;
+
+  /* COLORS */
+  --primary-color: rgb(252, 212, 31);
+  --secondary-color: black;
+  --tertiary-color: rgb(229, 229, 229);
+  --footer-color:#ffd700;;
+  --footer-hover-color:#ffcc00;
+  --footer-text-color: white;
+  --header-color:rgb(146, 212, 252);
+  --footer-background-color: #222;
+  --back-button-color: rgb(146, 212, 252);
+  --back-button-hover-color: rgb(94, 189, 248);
+  --back-button-active-color: rgb(20, 119, 181);
+  --disabled-color: grey;
+
+  /* PADDING */
+  --padding-xs: 5px;
+  --padding-s: 10px;
+  --padding-m: 40px;
+  --padding-l: 50px;
+  --padding-xl: 100px;
+
+  /* MARGIN */
+  --margin-xs: 5px;
+  --margin-s: 10px;
+  --margin-m: 20px;
+  --margin-l: 30px;
+  --margin-xl: 50px;
+  --margin-xxl:100px;
+
+  /*BORDER-RADIUS*/
+  --br-xs: 5px;
+  --br-s: 10px;
+  --br-m: 15px;
+  --br-l: 20px;
+
+  /* GAP */
+  --gap-s: 20px;
+  --gap-m: 30px;
+  --gap-l: 100px;
+  --gap-xl: 120px;
+
+  /* FONT-SIZE */
+  --fs-xxs: 12px;
+  --fs-xs: 14px;
+  --fs-s: 16px;
+  --fs-m: 18px;
+  --fs-l: 20px;
+  --fs-xl: 24px;
+  --fs-xxl: 28px;
+
+  /*BORDER-RADIUS*/
+  --br-xs: 5px;
+  --br-s: 10px;
+  --br-m: 15px;
+  --br-l: 20px;
+
+  /* GAP */
+  --gap-s: 20px;
+  --gap-m: 30px;
+  --gap-l: 100px;
+  --gap-xl: 120px;
+
+  /* FONT-SIZE */
+  --fs-xxs: 12px;
+  --fs-xs: 14px;
+  --fs-s: 16px;
+  --fs-m: 18px;
+  --fs-l: 20px;
+  --fs-xl: 24px;
+  --fs-xxl: 28px;
+
+  /* WIDTH */
+  --width-xs: 200px;
+  --width-s: 250px;
+  --width-m: 500px;
+  --width-l: 1000px;
+  --width-full: 100%;
+  --width-screen: 100vw;
+
+  /* HEIGHT */
+  --height-xs: 150px;
+  --height-s: 200px;
+  --height-m: 350px;
+  --height-screen: 100svh;
 }
 
 * {

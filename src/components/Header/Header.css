@@ -2,34 +2,34 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  background-color: rgb(146, 212, 252);
+  width: var(--width-full);
+  background-color: var(--header-color);
   padding: 15px 20px;
   z-index: 1000;
   font-family: var(--font-simpsons);
-  font-size: 20px;
+  font-size: var(--fs-l);
   border-bottom: 2px solid black;
 }
 
 header ul {
   display: flex;
-  gap: 100px;
+  gap: var(--gap-l);
   justify-content: center;
   align-items: center;
 }
 
 header ul li a {
-  color: black;
-  padding: 10px;
-  border-radius: 10px;
+  color: var(--secondary-color);
+  padding: var(--padding-s);
+  border-radius: var(--br-s);
 }
 
 header ul li a:hover {
-  background-color: rgb(229, 229, 229);
+  background-color: var(--tertiary-color);
 }
 
 @media (width < 500px) {
   header {
-    font-size: 16px;
+    font-size: var(--fs-s);
   }
 }

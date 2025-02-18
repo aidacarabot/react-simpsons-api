@@ -1,42 +1,42 @@
 .pagination {
-  margin-top: 20px;
+  margin-top: var(--margin-m);
   font-family: var(--font-simpsons);
 }
 
 .pagination span {
-  margin: 30px;
+  margin: var(--margin-l);
 }
 
 .pagination button {
-  padding: 10px;
-  margin: 5px;
-  font-size: 16px;
+  padding: var(--padding-s);
+  margin: var(--margin-xs);
+  font-size: var(--fs-s);
   cursor: pointer;
   border: 1px solid black;
-  border-radius: 5px;
-  background-color: rgb(229, 229, 229);
-  color: black;
+  border-radius: var(--br-xs);
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
   font-family: var(--font-simpsons);
 }
 
 .pagination button:hover {
-  background-color: black;
-  color: white;
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
 }
 
 .pagination button:disabled {
-  background-color: grey;
-  color: white;
+  background-color: var(--disabled-color);
+  color: var(--tertiary-color);
   cursor: not-allowed;
 }
 
 @media (width < 500px) {
   .pagination button {
-    font-size: 12px;
+    font-size: var(--fs-xxs);
   }
 
   .pagination span {
-    font-size: 14px;
-    margin: 10px;
+    font-size: var(--fs-xs);
+    margin: var(--margin-s);
   }
 }
