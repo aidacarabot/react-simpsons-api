@@ -4,6 +4,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 139, 139);
+  background-color: rgb(252, 212, 31);
   width: 100vw;
+  font-family: var(--font-simpsons);
+  gap: 30px;
+  text-align: center;
+}
+
+.home img {
+  max-height: 150px;
+}
+
+.home h1 {
+  max-width: 500px;
+}
+
+.home p {
+  font-family: var(--font-normal);
+  max-width: 1000px;
+  font-size: 20px;
 }

@@ -28,9 +28,6 @@ const CharacterDetail = () => {
       });
   }, [id]);
 
-  if (loading) return <p>Cargando personaje...</p>;
-  if (error) return <p>{error}</p>;
-
   return (
     <div className="character-detail">
       <button className="back-button"onClick={() => navigate(-1)}>X</button>

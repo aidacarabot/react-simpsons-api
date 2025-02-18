@@ -29,10 +29,10 @@ const Characters = () => {
 
       return (
         <div className="characters">
-          <h1>Personajes de Los Simpsons</h1>
-    
-          <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-    
+          <div className="logo-search">
+            <img src="../../../public/assets/logo.svg" className="logo"></img>
+            <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+          </div>
           <CharacterList characters={currentCharacters} />
     
           <Pagination

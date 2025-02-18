@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  background-color: #222;
+  color: white;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-family: var(--font-normal);
+}
+
+.footer-link {
+  color: #ffd700; /* Dorado para resaltar el enlace */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ffcc00; /* Cambio de color al pasar el mouse */
+}

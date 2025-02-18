@@ -10,7 +10,7 @@ const CharacterList = ({ characters }) => {
       {characters.length > 0 ? (
         characters.map((character) => <CharacterCard key={character._id} character={character} />)
       ) : (
-        <p>No se encontraron personajes</p>
+        <p>Cargando Personajes...</p>
       )}
     </div>
   );
