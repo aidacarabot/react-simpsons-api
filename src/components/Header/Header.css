@@ -3,10 +3,11 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+  background-color: rgb(146, 212, 252);
   padding: 15px 20px;
   z-index: 1000;
+  font-family: var(--font-simpsons);
+  font-size: 20px;
 }
 
 header ul {
@@ -14,4 +15,14 @@ header ul {
   gap: 30px;
   justify-content: center;
   align-items: center;
+}
+
+header ul li a {
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+header ul li a:hover {
+  background-color: whitesmoke;
 }

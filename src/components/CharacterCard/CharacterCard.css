@@ -1,11 +1,12 @@
 .character-card {
   text-decoration: none;
   color: black;
+  font-family: var(--font-simpsons);
 }
 
 .card-container {
-  background-color: rgb(254, 240, 180);
-  border: 3px solid black; /* Borde negro */
+  background-color: rgb(245, 213, 72);
+  border: 3px solid black; 
   border-radius: 20px;
   padding: 10px;
   text-align: center;
@@ -28,7 +29,6 @@
   font-size: 18px;
 }
 
-/* Efecto al pasar el mouse */
 .card-container:hover {
   transform: scale(1.05);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
