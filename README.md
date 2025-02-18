@@ -20,24 +20,6 @@ Este es un proyecto desarrollado en **React** que permite explorar los personaje
 - CSS para los estilos
 - API pública: [Simpsons API](https://apisimpsons.fly.dev/api/personajes)
 
-## 📂 Instalación y ejecución
-### 1️⃣ Clonar el repositorio
-```sh
-git clone https://github.com/aidacarabot/react-simpsons-api
-```
-### 2️⃣ Instalar dependencias
-```sh
-npm install
-```
-### 3️⃣ Ejecutar el proyecto en desarrollo
-```sh
-npm run dev
-```
-### 4️⃣ Construir para producción
-```sh
-npm run build
-```
-
 ## 📜 Licencia
 Este proyecto es de código abierto y está bajo la licencia **MIT**.
 
