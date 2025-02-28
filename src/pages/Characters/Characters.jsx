@@ -8,13 +8,21 @@ const Characters = () => {
   const [characters, setCharacters] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
+  const [loading, setLoading] = useState(true); 
   const charactersPerPage = 10;
 
   useEffect(() => {
+    setLoading(true);
     fetch('https://apisimpsons.fly.dev/api/personajes?limit=635&page=1')
       .then((response) => response.json())
-      .then((data) => setCharacters(data.docs))
-      .catch((error) => console.error('Error fetching characters:', error));
+      .then((data) => {
+        setCharacters(data.docs);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error('Error fetching characters:', error);
+        setLoading(false);
+      });
   }, []);
 
     //! 1️⃣ Filtrar personajes según el buscador
@@ -34,12 +42,13 @@ const Characters = () => {
             <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
           </div>
           <CharacterList characters={currentCharacters} />
-    
-          <Pagination
+          {!loading && filteredCharacters.length > 0 && (
+            <Pagination
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
             totalPages={Math.ceil(filteredCharacters.length / charactersPerPage)}
           />
+          )}
         </div>
       );
 };

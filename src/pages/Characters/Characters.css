@@ -21,7 +21,7 @@
     max-height: var(--height-xs);
 }
 
-@media (width < 500px) {
+@media (width < 560px) {
     .logo-search {
         flex-direction: column;
         height: auto;

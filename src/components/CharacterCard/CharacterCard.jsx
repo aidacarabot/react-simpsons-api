@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 const CharacterCard = ({ character }) => {
   return (
     <Link to={`/character/${character._id}`} className="character-card">
-      <div className="card-container">
+      <article className="card-container">
         <h2>{character.Nombre}</h2>
         <img src={character.Imagen} alt={character.Nombre} />
-      </div>
+      </article>
     </Link>
   );
 };

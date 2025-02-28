@@ -63,7 +63,7 @@ button:active {
   min-height: var(--height-m);
 }
 
-@media (width < 500px) {
+@media (width < 800px) {
   .character-container {
     flex-direction: column;
   }
@@ -75,10 +75,9 @@ button:active {
   .character-info {
     margin-left: 0;
   }
-}
 
-@media (width < 376px) {
   .character-detail {
     margin-top: var(--margin-xxl);
   }
 }
+
