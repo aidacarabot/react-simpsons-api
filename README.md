@@ -3,25 +3,25 @@
 ## 💻 Web
 https://react-simpsons-api.vercel.app/
 
-## 🟡 Descripción
-Este es un proyecto desarrollado en **React** que permite explorar los personajes de Los Simpsons. La aplicación obtiene datos desde una API pública y muestra información detallada de cada personaje.
+## 🟡 Description
+This is a project developed in **React** that allows you to explore characters from The Simpsons. The app fetches data from a public API and displays detailed information for each character.
 
-## 🚀 Características
-- Listado completo de personajes con imágenes y detalles.
-- Buscador dinámico para encontrar personajes fácilmente.
-- Paginación para navegar entre los personajes.
-- Vista detallada de cada personaje con información adicional.
-- Diseño responsive para adaptarse a cualquier dispositivo.
-- Efectos visuales en el header al hacer scroll.
+## 🚀 Features
+- Complete list of characters with images and details.
+- Dynamic search to easily find characters.
+- Pagination to navigate through characters.
+- Detailed view of each character with additional information.
+- Responsive design to adapt to any device.
+- Visual effects in the header when scrolling.
 
-## 🛠️ Tecnologías utilizadas
-- React.js con Vite
-- React Router DOM para la navegación
-- CSS para los estilos
-- API pública: [Simpsons API](https://apisimpsons.fly.dev/api/personajes)
+## 🛠️ Technologies Used
+- React.js with Vite
+- React Router DOM for navigation
+- CSS for styling
+- Public API: [Simpsons API](https://apisimpsons.fly.dev/api/personajes)
 
-## 📜 Licencia
-Este proyecto es de código abierto y está bajo la licencia **MIT**.
+## 📜 License
+This project is open source and licensed under the **MIT** license.
 
 ---
 
